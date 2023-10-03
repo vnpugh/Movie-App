@@ -10,6 +10,7 @@ import { MovieListComponent } from './moviecollection/movie-list/movie-list.comp
 import { MovieDetailsComponent } from './moviecollection/movie-details/movie-details.component';
 import { MovieResultsComponent } from './movieplatform/movie-results/movie-results.component';
 import { MovieSearchComponent } from './movieplatform/movie-search/movie-search.component';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { MovieSearchComponent } from './movieplatform/movie-search/movie-search.
     MovieListComponent,
     MovieDetailsComponent,
     MovieResultsComponent,
-    MovieSearchComponent
+    MovieSearchComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule
