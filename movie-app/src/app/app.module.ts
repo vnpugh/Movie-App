@@ -6,6 +6,10 @@ import { MovieplatformComponent } from './movieplatform/movieplatform.component'
 import { MoviecollectionComponent } from './moviecollection/moviecollection.component';
 import { NavigationComponent } from './shared/navigation/navigation.component';
 import { MovieComponent } from './shared/movie/movie.component';
+import { MovieListComponent } from './moviecollection/movie-list/movie-list.component';
+import { MovieDetailsComponent } from './moviecollection/movie-details/movie-details.component';
+import { MovieResultsComponent } from './movieplatform/movie-results/movie-results.component';
+import { MovieSearchComponent } from './movieplatform/movie-search/movie-search.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +17,11 @@ import { MovieComponent } from './shared/movie/movie.component';
     MovieplatformComponent,
     MoviecollectionComponent,
     NavigationComponent,
-    MovieComponent
+    MovieComponent,
+    MovieListComponent,
+    MovieDetailsComponent,
+    MovieResultsComponent,
+    MovieSearchComponent
   ],
   imports: [
     BrowserModule
