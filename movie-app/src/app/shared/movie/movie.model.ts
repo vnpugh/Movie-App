@@ -1,5 +1,6 @@
 export class Movie {
-	constructor(public title: string, public director: string, 
+	constructor(public title: string, 
+        public director: string, 
         public genre: string, 
         public summary: string,
         public releaseDate: Date, //new Date(2023, 10, 15); November 15, 2023
