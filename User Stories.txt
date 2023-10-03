@@ -1,0 +1,13 @@
+Basic CRUD User Stories
+
+User Story: Add a New Movie (CREATE)
+*As a user, I want to add a new movie to my movie collection.
+
+User Story: View Movie Details (READ)
+*As a user, I want to view information about a specific movie.
+
+User Story: Update/Change Movie Collection (UPDATE)
+*As a user, I want to update/change the movies in my collection.
+
+User Story: Remove a Movie (DELETE)
+As a user, I want to remove a movie from my collection if I no longer wish to keep it.
