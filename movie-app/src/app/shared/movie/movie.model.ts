@@ -5,7 +5,7 @@ export class Movie {
         public summary: string,
         public releaseDate: Date, //new Date(2023, 10, 15); November 15, 2023
         public duration:string, //2 hours 15 minutes
-        public actors: string,
+        public cast: string,
         public rating: string,
         public country: string,
         public language: string,
