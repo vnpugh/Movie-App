@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppComponent } from './app.component';
 import { MovieplatformComponent } from './movieplatform/movieplatform.component';
 import { MoviecollectionComponent } from './moviecollection/moviecollection.component';
@@ -11,9 +10,15 @@ import { MovieDetailsComponent } from './moviecollection/movie-details/movie-det
 import { MovieResultsComponent } from './movieplatform/movie-results/movie-results.component';
 import { MovieSearchComponent } from './movieplatform/movie-search/movie-search.component';
 import { LoginComponent } from './login/login.component';
+import { HomepageComponent } from './homepage/homepage.component';
+
+//Angular Material import modules
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatButtonModule } from '@angular/material/button';
+import { MatToolbarModule } from '@angular/material/toolbar';
 
 @NgModule({
-  declarations: [
+  declarations: [ //only for the components, directives, and pipes
     AppComponent,
     MovieplatformComponent,
     MoviecollectionComponent,
@@ -23,10 +28,15 @@ import { LoginComponent } from './login/login.component';
     MovieDetailsComponent,
     MovieResultsComponent,
     MovieSearchComponent,
-    LoginComponent
+    LoginComponent,
+    HomepageComponent,
+
   ],
-  imports: [
-    BrowserModule
+  imports: [ //material modules added to imports array
+    BrowserModule,
+    BrowserAnimationsModule, //animations
+    MatButtonModule,
+    MatToolbarModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
